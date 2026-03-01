@@ -1,4 +1,4 @@
-```markdown
+
 # FTEC5660 Reproducibility Project: AI-Trader (Agentic System)
 
 ## Project Overview
@@ -18,10 +18,6 @@ In accordance with the assignment requirements, the following isolated and measu
 - **Python:** 3.10 or higher (Tested on Python 3.12 in Google Colab).
 - **API Key:** A valid Google Gemini API Key. (Get one from [Google AI Studio](https://aistudio.google.com/)).
 
-### Install Dependencies
-Clone this repository and install the required Python packages:
-
-```bash
 # Clone the repository
 git clone [https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git)
 cd YOUR_REPO_NAME
@@ -29,7 +25,7 @@ cd YOUR_REPO_NAME
 # Install required packages
 pip install google-generativeai yfinance pandas matplotlib
 
-```
+
 
 ---
 
@@ -48,10 +44,9 @@ pip install google-generativeai yfinance pandas matplotlib
 **Method 2: Running via Python Script**
 If you exported the code to a `.py` file, ensure your API key is configured in your environment, then execute:
 
-```bash
+
 python run_agentic_backtest.py
 
-```
 
 ---
 
